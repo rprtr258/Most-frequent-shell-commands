@@ -9,7 +9,7 @@ def first_n_sorted_dict_items(d, to_take=10):
 def format_line(cnt, overall, word):
     return f"{cnt:3d} ({100*cnt/overall:2.0f}%) {word}"
 
-parser = argparse.ArgumentParser(description="Monitor command.")
+parser = argparse.ArgumentParser(description="Print most frequent called commands.")
 parser.add_argument(
     "-n",
     "--numcmds",
